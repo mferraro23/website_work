@@ -1,0 +1,335 @@
+/*--------------------------Elements--------------------------*/
+/*------------------------------------------------------------*/
+body.main{
+    background-repeat: repeat;
+    /*background-image: url("../images/material.jpg");*/
+    background-color: #0D0D0B;
+    margin: 0;
+}
+body.infopage{
+    background-color: #282830;;
+}
+h1{
+    font-family: 'futuramedium', Arial, sans-serif;
+    font-weight:normal;
+    font-style:normal;
+    text-align: center;
+    font-size: 45pt;
+    color: white;
+    margin-bottom: 0;
+    animation: fadeEffect 2s;
+}
+h2{
+    font-family: 'futuralight_italic', Arial, sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    text-align: center;
+    color: #A6A6A6;
+    font-size: 15pt;
+    margin-top: 0;
+    animation: fadeEffect 2s;
+}
+h3{
+    font-family: 'futuralight_italic', Arial, sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    text-align: center;
+    color: #A6A6A6;
+    font-weight: bold;
+    margin-top: 0;
+    animation: fadeEffect 1s;
+}
+h4{
+    font-family: 'futurabook', Arial, sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    text-align: center;
+    color: #A6A6A6;
+    font-weight: normal;
+    margin-top: 0;
+    animation: fadeEffect 1s;
+}
+p{
+   font-family: 'futuramedium', Arial, sans-serif;
+    font-weight:normal;
+    font-style:normal;
+    text-align: center;
+    font-size: 25pt;
+    color: #A6A6A6;
+    margin-bottom: 0; 
+    animation: fadeEffect 1s;
+}
+
+
+/*------------------------End Elements------------------------*/
+/*------------------------------------------------------------*/
+
+
+
+/*-----------------------Created Classes----------------------*/
+/*------------------------------------------------------------*/
+.style{
+    font-family: 'futuramedium', Arial, sans-serif;
+    font-weight:normal;
+    font-style:normal;
+    text-align: center;
+    font-size: 25pt;
+    color: #A6A6A6;
+    margin-bottom: 0; 
+    animation: fadeEffect 1s;
+}
+a.stylelink:link{
+    text-decoration: underline;
+}
+a.stylelink:hover{
+    color: white;
+}
+
+.bottomMiddle{
+    text-align: center;
+    position: fixed;
+    left: 50%;
+    bottom: 20px;
+    transform: translate(-50%, -50%);
+    margin: 0 auto;
+}
+.back{
+    display:inline-block;
+    margin-top: 10px;
+    margin-left: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #404040;
+    font-family:futuralight_italic ;
+    font-weight: bold;
+    font-style: normal;
+    color: #A6A6A6;
+    font-size: 15px;
+    width: 70px;
+    height: 30px;
+}
+.back1{
+    margin-top: 10px;
+    margin-left: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #A6A6A6;
+    font-family:futuralight_italic ;
+    font-weight: bold;
+    font-style: normal;
+    color: #404040;
+    font-size: 15px;
+    width: 70px;
+    height: 30px;
+    display:inline-block;
+}
+.back1 button{
+    border: none;
+    border-radius: 5px;
+    background-color: #A6A6A6;
+    font-family:futuralight_italic ;
+    font-weight: bold;
+    font-style: normal;
+    color: #404040;
+    font-size: 15px;
+    width: 70px;
+    height: 30px;
+    display:inline-block;
+}
+.back1 button:hover{
+    background-color: #0D0D0D;
+    color: #A6A6A6;
+    border-color: white;
+}
+.back button{
+    display:inline-block;
+    border: none;
+    border-radius: 5px;
+    background-color: #404040;
+    font-family:futuralight_italic ;
+    font-weight: bold;
+    font-style: normal;
+    color: #A6A6A6;
+    font-size: 15px;
+    width: 70px;
+    height: 30px;
+}
+.back button:hover{
+    background-color: #0D0D0D;
+    border-color: white;
+}
+.icons{
+   height: 5%;
+   width: 5%;
+   animation: fadeEffect 1s;
+}
+.hrShort{
+    width: 550px;
+    color: #A6A6A6;
+    animation: fadeEffect 1s;
+}
+.hrLong{
+    width: 1350px;
+    background-color: #A6A6A6;
+    animation: fadeEffect 1s;
+}
+
+.tblCenter{
+    margin-left: auto;
+    margin-right: auto;
+    animation: fadeEffect 1s;
+    
+}
+.pic1{
+    width: 700px;
+    height: 650px;
+    animation: fadeEffect 1s;
+}
+.pic2{
+    width: 550px;
+    height: 500px;
+    animation: fadeEffect 1s;
+}
+.caption{
+    font-family:futuralight_italic ;
+    font-weight: normal;
+    font-style: normal;
+    color: #A6A6A6;
+    font-size: 12px;
+    animation: fadeEffect 1s;
+}
+.tab {
+    border-top: none;
+    border-left: 1px solid #0D0D0D;
+    border-right: 1px solid #0D0D0D;
+    border-bottom: none;
+    background-color: #404040;
+    width: 1430px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px 5px 0px 0px;
+    position: sticky;
+    top: 0px;
+    padding-bottom: 52px;
+    animation: fadeEffect 1s;
+    
+}
+.tab button {
+    background-color: #404040;
+    float: left;
+    border: none;
+    border-radius: 5px 5px 0px 0px;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-family: 'futuralight_italic', Arial, sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    text-align: center;
+    color: #A6A6A6;
+    font-size: 15pt;
+    margin-top: 0;
+    padding-right: 16px;
+}
+.tab button:hover {
+    background-color: #0D0D0D;
+}
+.tab button.active {
+    background-color: #A6A6A6;
+    color: #262626;
+}
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border-bottom: 3px solid #A6A6A6;
+    border-left: none;
+    border-right: none;
+    border-top: 3px solid #A6A6A6;
+    background-color: #262626;
+    width: 1406px;
+    margin-left: auto;
+    margin-right: auto;
+    animation: fadeEffect 1s;
+    border-radius: 0px 0px 5px 5px;
+
+}
+
+
+@keyframes fadeEffect {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+
+/*---------------------End Created Classes--------------------*/
+/*------------------------------------------------------------*/
+
+
+/*---------------------------Fonts----------------------------*/
+/*------------------------------------------------------------*/
+@font-face {
+    font-family: 'futurabook';
+    src: url('futura_book_font-webfont.woff2') format('woff2'),
+         url('futura_book_font-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+@font-face {
+    font-family: 'futurabook_italic';
+    src: url('futura_book_italic_font-webfont.woff2') format('woff2'),
+         url('futura_book_italic_font-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+@font-face {
+    font-family: 'futuraheavy_italic';
+    src: url('futura_heavy_italic_font-webfont.woff2') format('woff2'),
+         url('futura_heavy_italic_font-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+@font-face {
+    font-family: 'futuralight';
+    src: url('futura_light_bt-webfont.woff2') format('woff2'),
+         url('futura_light_bt-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+@font-face {
+    font-family: 'futuralight_italic';
+    src: url('futura_light_italic_font-webfont.woff2') format('woff2'),
+         url('futura_light_italic_font-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+@font-face {
+    font-family: 'futuramedium';
+    src: url('futura_medium_condensed_bt-webfont.woff2') format('woff2'),
+         url('futura_medium_condensed_bt-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+/*-------------------------End Fonts--------------------------*/
+/*------------------------------------------------------------*/
